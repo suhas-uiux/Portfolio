@@ -2,10 +2,10 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 
-import projectOne from "../assets/images/project-1.png";
-import projectTwo from "../assets/images/project-2.png";
+import projectOne from "../assets/images/picture1.png";
+import projectTwo from "../assets/images/picture3.png";
 import projectThree from "../assets/images/project-3.png";
-import projectFour from "../assets/images/project-4.png";
+import projectFour from "../assets/images/picture2.png";
 import projectSix from "../assets/images/project-6.png";
 import projectSeven from "../assets/images/project-7.png";
 
@@ -16,37 +16,20 @@ const Project = () => {
   const projects = [
     {
       img: projectTwo,
-      name: "Netflix Clone",
-      github_link: "https://github.com/aryyan0701/Netflix_Clone",
+      name: "Project-X",
+      github_link: "https://github.com/suhas-uiux/PROJECT-X",
+      live_link: "https://www.linkedin.com/posts/suhas-sambargi-389571283_hello-connections-im-thrilled-to-share-activity-7235625159166992384-sz1L?utm_source=share&utm_medium=member_desktop&rcm=ACoAAET169kBeCzcW365g25y_r1BHi4TOsxMGsM",
     },
     {
       img: projectOne,
-      name: "Type Verse (Check your typing speed)",
-      github_link: "https://github.com/aryyan0701/type_verse",
-      live_link: "https://aryyan0701.github.io/type_verse/",
-    },
-    {
-      img: projectThree,
-      name: "Currency Converter",
-      github_link: "https://github.com/aryyan0701/Currency_converter",
+      name: "Decentralized file system (Blockchain)",
+      github_link: "https://github.com/suhas-uiux/minor_project_blockchain",
+      live_link: "https://www.linkedin.com/feed/update/urn:li:activity:7282810985654992896/",
     },
     {
       img: projectFour,
-      name: "Quizzify",
-      github_link: "https://github.com/aryyan0701/Quizzify",
-      live_link: "https://quizzad.netlify.app/",
-    },
-    {
-      img: projectSix,
-      name: "Bloggify",
-      github_link: "https://github.com/aryyan0701/Bloggify",
-      live_link: "https://aryyan0701.github.io/Bloggify/",
-    },
-    {
-      img: projectSeven,
-      name: "Sandbox Clone",
-      github_link: "https://github.com/aryyan0701/sandbox_clone",
-      live_link: "https://aryyan0701.github.io/sandbox_clone/",
+      name: "Travel (Landing Page)",
+      github_link: "https://github.com/suhas-uiux/Travel",
     },
   ];
 
@@ -99,7 +82,7 @@ const Project = () => {
                         rel="noopener noreferrer"
                         className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                       >
-                        Live
+                        Linked In
                       </a>
                     )}
                   </div>
