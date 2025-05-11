@@ -11,8 +11,9 @@ const About = () => {
 
 
   const navigateToResume = () => {
-    window.open(googleDriveLink, "_blank");
+    window.open("/assets/images/Suhas_Sambargi_2SD22CS109 (1).pdf", "_blank");
   };
+  
 
   return (
     <section id="about" className="py-10 text-white">
