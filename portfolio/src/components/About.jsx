@@ -11,7 +11,7 @@ const About = () => {
 
 
   const navigateToResume = () => {
-    window.open("/assets/images/Suhas_Sambargi_2SD22CS109 (1).pdf", "_blank");
+    window.open("/assets/images/Suhas_Sambargi_2SD22CS109.pdf", "_blank");
   };
   
 
