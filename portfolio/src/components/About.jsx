@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
   const info = [
-    // { text: "Years experience", count: "04" },
+   
     { text: "Completed Projects", count: "10" },
     { text: "Companies Work", count: "01" }
   ];
